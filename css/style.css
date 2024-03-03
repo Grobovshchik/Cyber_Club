@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    flex-direction: column;
+    font-weight: 100;
+    color: 	#FFFFFF;
+    background: #000000ef;
+
+    /* background: 
+    #1d1212; 
+    #000000
+    #FFFFFF
+    242121
+    000000ef
+    rgba(166,23,23,0.35);
+    */
+}
+
+/* ПОЛОСКА  */
+.height_1 {
+    margin-top: 10px;
+    background: #da0f0f; 
+    width: 100%;
+}
+
+.home_page {
+width: 1380px;
+min-height: 768px;
+}
+
+.icon {
+display: flex;
+position: absolute;
+margin-left: 720px;
+width: 55px;
+height: 55px;
+padding-top: 5px; 
+
+}
+
+/* ПАНЕЛЬ ВВЕРХ */
+
+.header_button {
+margin-left: 185px;
+margin-top: 25px;
+box-shadow: 0 0 10px rgb(255, 0, 0);
+    
+}
+.button_1 {
+display: flex;
+flex-wrap: wrap;
+width: 140px;
+height: 50px;
+
+    
+}
+.button_2 {
+display: flex;
+flex-wrap: wrap;
+width: 140px;
+height: 50px;
+    
+}
+.button_3 {
+display: flex;
+flex-wrap: wrap;
+width: 140px;
+height: 50px;
+    
+}
+.button_4 {
+display: flex;
+flex-wrap: wrap;
+width: 140px;
+height: 50px;
+    
+}
+
+/* ПОЛОСКА  */
+.height_2 {
+    margin-top: 12px;
+    background: #da0f0f; 
+    width: 100%;
+}
+
+/* ТЕКСТ */
+
+.header_text {
+display: flex;
+font-family: Cyberpunk, sans-serif;
+text-shadow: 0 0 25px rgb(211, 23, 23);
+}
+
+.header_text_1 {
+position: absolute;
+padding-left: 40px;
+padding-top: 200px;
+font-size: 160px;
+line-height: 1.2;
+font-weight: 900;
+}
+
+.header_text_2 {
+position: absolute;
+padding-left: 420px;
+padding-top: 440px;
+font-size: 90px;
+line-height: 1.2;
+font-weight: 900;
+}
+
+.img_CyberGirl_1 {
+    
+    float: right;
+    width: 570px;
+    height: 776px;
+    z-index: 5;
+    
+}
+
+/* ПОЛОСКА  */
+.height_3 {
+    position: absolute;
+    margin-top: 650px;
+    background: #da0f0f; 
+    width: 100%;
+}
+/* ПОЛОСКА  */
+.height_4 {
+    margin-top: 710px;
+    background: #da0f0f; 
+    width: 100%;
+    
+}
+
+
+
+/* -------------------- */
+
+/* ПОЛОСКА  */
+.height_5 {
+    
+    margin-top: -25px;
+    background: #da0f0f; 
+    width: 100%;
+}
+/* ПОЛОСКА  */
+.height_6 {
+    position: absolute;
+    margin-top: 70px;
+    background: #da0f0f; 
+    width: 100%;
+    
+}
+
+.header_text_components {
+font-family: Blackcraft, sans-serif;
+text-shadow: 0 0 25px rgb(211, 23, 23);
+font-size: 25px;
+line-height: 1.2;
+font-weight: 900;
+position: absolute;
+padding-left: 45px;
+padding-top: 20px;
+
+}
+
+.main_picture_CyberGirl_2 {
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 155px;
+
+}
+.img_CyberGirl_2 {
+    width: 369px;
+    height: 453px;
+}
+.main_text {
+    font-family: Montserrat-Light, sans-serif;
+    text-shadow: 0 0 25px rgb(211, 23, 23);
+    text-align: right;
+    padding-right: 110px;
+    padding-top: 100px;
+    line-height: 1.2px;
+    font-weight: 500;
+    font-size: 20px;
+}
