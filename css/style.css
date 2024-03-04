@@ -33,56 +33,52 @@ body {
 }
 
 .home_page {
-width: 1380px;
-min-height: 768px;
+    width: 1380px;
+    min-height: 768px;
 }
 
 .icon {
-display: flex;
-position: absolute;
-margin-left: 720px;
-width: 55px;
-height: 55px;
-padding-top: 5px; 
-
+    display: flex;
+    position: absolute;
+    margin-left: 720px;
+    width: 55px;
+    height: 55px;
+    padding-top: 5px;
 }
 
 /* ПАНЕЛЬ ВВЕРХ */
-
 .header_button {
-margin-left: 185px;
-margin-top: 25px;
-box-shadow: 0 0 10px rgb(255, 0, 0);
-    
+    margin-left: 185px;
+    margin-top: 25px;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
 }
-.button_1 {
-display: flex;
-flex-wrap: wrap;
-width: 140px;
-height: 50px;
 
-    
+.button_1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 50px;  
 }
+
 .button_2 {
-display: flex;
-flex-wrap: wrap;
-width: 140px;
-height: 50px;
-    
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 50px;
 }
+
 .button_3 {
-display: flex;
-flex-wrap: wrap;
-width: 140px;
-height: 50px;
-    
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 50px;   
 }
+
 .button_4 {
-display: flex;
-flex-wrap: wrap;
-width: 140px;
-height: 50px;
-    
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 50px; 
 }
 
 /* ПОЛОСКА  */
@@ -92,39 +88,38 @@ height: 50px;
     width: 100%;
 }
 
-/* ТЕКСТ */
 
+
+/* INDEX HTML */
 .header_text {
-display: flex;
-font-family: Cyberpunk, sans-serif;
-text-shadow: 0 0 25px rgb(211, 23, 23);
+    display: flex;
+    font-family: Cyberpunk, sans-serif;
+    text-shadow: 0 0 25px rgb(211, 23, 23);
 }
 
 .header_text_1 {
-position: absolute;
-padding-left: 40px;
-padding-top: 200px;
-font-size: 160px;
-line-height: 1.2;
-font-weight: 900;
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 200px;
+    font-size: 160px;
+    line-height: 1.2;
+    font-weight: 900;
 }
 
 .header_text_2 {
-position: absolute;
-padding-left: 420px;
-padding-top: 440px;
-font-size: 90px;
-line-height: 1.2;
-font-weight: 900;
+    position: absolute;
+    padding-left: 420px;
+    padding-top: 440px;
+    font-size: 90px;
+    line-height: 1.2;
+    font-weight: 900;
 }
 
 .img_CyberGirl_1 {
-    
     float: right;
     width: 570px;
     height: 776px;
     z-index: 5;
-    
 }
 
 /* ПОЛОСКА  */
@@ -142,8 +137,6 @@ font-weight: 900;
     
 }
 
-
-
 /* -------------------- */
 
 /* ПОЛОСКА  */
@@ -153,32 +146,31 @@ font-weight: 900;
     background: #da0f0f; 
     width: 100%;
 }
+
 /* ПОЛОСКА  */
 .height_6 {
     position: absolute;
     margin-top: 70px;
     background: #da0f0f; 
     width: 100%;
-    
 }
 
+/* components HTML */
 .header_text_components {
-font-family: Blackcraft, sans-serif;
-text-shadow: 0 0 25px rgb(211, 23, 23);
-font-size: 25px;
-line-height: 1.2;
-font-weight: 900;
-position: absolute;
-padding-left: 45px;
-padding-top: 20px;
-
+    font-family: Blackcraf, sans-serif;
+    text-shadow: 0 0 25px rgb(211, 23, 23);
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 900;
+    position: absolute;
+    padding-left: 45px;
+    padding-top: 20px;
 }
 
 .main_picture_CyberGirl_2 {
     position: absolute;
     margin-left: 45px;
     margin-top: 155px;
-
 }
 .img_CyberGirl_2 {
     width: 369px;
