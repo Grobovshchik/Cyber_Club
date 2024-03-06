@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "Reaverockg";
+    src: url("../fonts/Reaverockg.otf");
+}
+@font-face {
+    font-family: "Blackcraft";
+    src: url("../fonts/Blackcraft.ttf");
+}
+@font-face {
+    font-family: "Cyberpunk";
+    src: url("../fonts/Cyberpunk.ttf");
+}
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url("../fonts/Montserrat-Light.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    flex-direction: column;
+    font-weight: 100;
+    color: 	#FFFFFF;
+    background: #000000ef;
+
+    /* background: 
+    #1d1212; 
+    #000000
+    #FFFFFF
+    242121
+    000000ef
+    rgba(166,23,23,0.35);
+    */
+}
+
+.home_page {
+    width: 1380px;
+    min-height: 768px;
+}
+
+/* ПОЛОСКА  */
+.height_1 {
+    margin-top: 10px;
+    background: #a61717; 
+    width: 100%;
+}
+
+/* ПОЛОСКА  */
+.height_2 {
+    margin-top: 12px;
+    background: #a61717; 
+    width: 100%;
+}
+
+/* ПОЛОСКА  */
+.height_3 {
+    
+    margin-top: -25px;
+    background: #a61717; 
+    width: 100%;
+}
+
+/* ПОЛОСКА  */
+.height_4 {
+    position: absolute;
+    margin-top: 70px;
+    background: #a61717; 
+    width: 100%;
+}
+
+.icon {
+    display: flex;
+    position: absolute;
+    margin-left: 720px;
+    width: 55px;
+    height: 55px;
+    padding-top: 5px;
+}
+
+/* ПАНЕЛЬ ВВЕРХ */
+.header_button {
+    margin-left: 185px;
+    margin-top: 25px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.button_1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 50px;  
+}
+
+.button_2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 50px;
+}
+
+.button_3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 50px;   
+}
+
+.button_4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 50px; 
+}
+
+
+
+/* PRICE HTML*/
+.header_text {
+    display: flex;
+    font-family: Reaverockg, sans-serif;
+    text-shadow: 0 0 25px rgb(166, 23, 23);
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 900;
+    position: absolute;
+    padding-left: 650px;
+    padding-top: 20px;
+    letter-spacing: 30px;
+}
+
+.price_list {
+    display: flex;
+    font-family: Montserrat-Light, sans-serif;
+    text-shadow: 0 0 25px rgb(166, 23, 23);
+    font-size: 25px;
+    font-weight: 900;
+    
+}
+
+.price_text_1 {
+    display: flex;
+    position: absolute;
+    padding-top: 190px;
+    padding-left: 682px;
+}
+
+.price_text_2 {
+    display: flex;
+    padding-top: 350px;
+    padding-left: 100px;
+}
+
+.price_text_3 {
+    display: flex;
+    padding-top: 350px;
+    padding-left: 660px;
+    position: absolute;
+}
+
+.price_text_4 {
+    display: flex;
+    padding-top: 350px;
+    padding-left: 700px;
+}

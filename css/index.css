@@ -1,0 +1,230 @@
+@font-face {
+    font-family: "Reaverockg";
+    src: url("../fonts/Reaverockg.otf");
+}
+@font-face {
+    font-family: "Blackcraft";
+    src: url("../fonts/Blackcraft.ttf");
+}
+@font-face {
+    font-family: "Cyberpunk";
+    src: url("../fonts/Cyberpunk.ttf");
+}
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url("../fonts/Montserrat-Light.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    flex-direction: column;
+    font-weight: 100;
+    color: 	#FFFFFF;
+    background: #000000ef;
+
+    /* background: 
+    #1d1212; 
+    #000000
+    #FFFFFF
+    242121
+    000000ef
+    rgba(166,23,23,0.35);
+    */
+}
+
+.home_page {
+    width: 1380px;
+    min-height: 768px;
+}
+
+/* ПОЛОСКА  */
+.height_1 {
+    margin-top: 10px;
+    background: #a61717; 
+    width: 100%;
+}
+
+/* ПОЛОСКА  */
+.height_2 {
+    margin-top: 12px;
+    background: #a61717; 
+    width: 100%;
+}
+
+/* ПОЛОСКА  */
+.height_3 {
+    position: absolute;
+    margin-top: 640px;
+    background: #a61717; 
+    width: 100%;
+}
+
+/* ПОЛОСКА  */
+.height_4 {
+    margin-top: 719px;
+    background: #a61717; 
+    width: 100%;
+}
+
+.icon {
+    display: flex;
+    position: absolute;
+    margin-left: 720px;
+    width: 55px;
+    height: 55px;
+    padding-top: 5px;
+}
+
+/* ПАНЕЛЬ ВВЕРХ */
+.header_button {
+    margin-left: 185px;
+    margin-top: 25px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.button_1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 50px;  
+}
+
+.button_2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 50px;
+}
+
+.button_3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 50px;   
+}
+
+.button_4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 50px; 
+}
+
+/* INDEX HTML */
+.header_text {
+    display: flex;
+    font-family: Cyberpunk, sans-serif;
+    text-shadow: 0 0 25px rgb(166, 23, 23);
+}
+
+.header_text_1 {
+    position: absolute;
+    padding-left: 25px;
+    padding-top: 120px;
+    font-size: 160px;
+    line-height: 1.2;
+    font-weight: 900;
+}
+
+.header_text_2 {
+    font-family: Reaverockg, sans-serif;
+    position: absolute;
+    padding-left: 320px;
+    padding-top: 340px;
+    font-size: 140px;
+    font-stretch: expanded;
+    letter-spacing: 45px;
+}
+
+.img_CyberGirl_1 {
+    display: flex;
+    float: right;
+    position: absolute;
+    width: 550px;
+    height: 750px;
+    margin-left: 949px;
+    margin-top: -30px;
+}
+
+
+
+
+/* INFO HTML */
+/*
+.header_text_info {
+    display: flex;
+    font-family: Blackcraft, sans-serif;
+    text-shadow: 0 0 25px rgb(211, 23, 23);
+    padding-left: 10px;
+    padding-top: 15PX;
+    font-size: 75px;
+}
+
+.main_picture_Katana {
+    display: flex;
+    margin-left: 45px;
+    margin-top: 155px;
+}
+
+.img_Katana{
+    width: 500px;
+    height: 650px;
+}
+*/
+
+.main_text {
+    display: flex;
+    font-family: Montserrat-Light, sans-serif;
+    text-shadow: 0 0 25px rgb(166, 23, 23);
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+.main_text_1 {
+    display: flex;
+    display: inline-block;
+    padding: 20px;
+    border: 5px solid #a61717;
+    
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 250px;
+}
+
+.main_text_2 {
+    display: flex;
+    display: inline-block;
+    padding: 20px;
+    border: 5px solid #a61717;
+    
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+    height: 250px;
+}
+
+.main_text_3 {
+    display: flex;
+    display: inline-block;
+    padding: 20px;
+    border: 5px solid #a61717;
+    
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 250px;
+}
