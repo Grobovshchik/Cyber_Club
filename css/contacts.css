@@ -122,3 +122,80 @@ body {
 }
 
 /* CONTACTS HTML*/
+
+.header_text {
+    display: flex;
+    font-family: Reaverockg, sans-serif;
+    text-shadow: 0 0 25px rgb(166, 23, 23);
+    font-size: 50px;
+    
+    position: absolute;
+    padding-left: 288px;
+    padding-top: 20px;
+    letter-spacing: 30px;
+}
+
+.img_VK {
+    display: flex;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 200px;
+    width: 55px;
+    height: 55px;
+}
+
+.img_TG {
+    display: flex;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 345px;
+    width: 60px;
+    height: 60px;
+}
+
+.links_contacts {
+    display: flex;
+    font-family: Reaverockg, sans-serif;
+    text-shadow: 0 0 25px rgb(166, 23, 23);
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+.links_VK {
+    display: flex;
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 200px;
+}
+
+.links_TG {
+    display: flex;
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 308px;
+}
+
+.phone_number_text {
+    display: flex;
+    position: absolute;
+    font-family: Reaverockg, sans-serif;
+    text-shadow: 0 0 25px rgb(166, 23, 23);
+    font-size: 35px;
+    padding-left: 295px;
+    padding-top: 15px;
+    letter-spacing: 5px;
+    margin-left: 205px;
+    margin-top: 55px;
+}
+
+.address_company_text {
+    position: absolute;
+    font-family: Reaverockg, sans-serif;
+    text-shadow: 0 0 25px rgb(166, 23, 23);
+    font-size: 35px;
+    padding-left: 295px;
+    padding-top: 15px;
+    letter-spacing: 5px;
+    margin-left: 205px;
+    margin-top: 125px;
+}

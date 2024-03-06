@@ -64,7 +64,7 @@ body {
 /* ПОЛОСКА  */
 .height_3 {
     
-    margin-top: -25px;
+    margin-top: 148px;
     background: #a61717; 
     width: 100%;
 }
@@ -72,7 +72,7 @@ body {
 /* ПОЛОСКА  */
 .height_4 {
     position: absolute;
-    margin-top: 70px;
+    margin-top: 66px;
     background: #a61717; 
     width: 100%;
 }
@@ -128,9 +128,8 @@ body {
     display: flex;
     font-family: Reaverockg, sans-serif;
     text-shadow: 0 0 25px rgb(166, 23, 23);
-    font-size: 25px;
-    line-height: 1.2;
-    font-weight: 900;
+    font-size: 50px;
+    
     position: absolute;
     padding-left: 650px;
     padding-top: 20px;
@@ -142,32 +141,30 @@ body {
     font-family: Montserrat-Light, sans-serif;
     text-shadow: 0 0 25px rgb(166, 23, 23);
     font-size: 25px;
-    font-weight: 900;
-    
 }
 
 .price_text_1 {
     display: flex;
     position: absolute;
-    padding-top: 190px;
+    padding-top: 170px;
     padding-left: 682px;
 }
 
 .price_text_2 {
     display: flex;
-    padding-top: 350px;
+    padding-top: 290px;
     padding-left: 100px;
 }
 
 .price_text_3 {
     display: flex;
-    padding-top: 350px;
+    padding-top: 290px;
     padding-left: 660px;
     position: absolute;
 }
 
 .price_text_4 {
     display: flex;
-    padding-top: 350px;
+    padding-top: 290px;
     padding-left: 700px;
 }
